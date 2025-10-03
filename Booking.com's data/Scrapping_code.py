@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import time
 import csv
-import re
 
 def scrape_booking_url(url, output_csv):
     driver = webdriver.Edge()
