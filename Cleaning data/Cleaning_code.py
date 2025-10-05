@@ -31,7 +31,7 @@ def clean_price_column(csv_file):
             # Extract numeric price using regex
             match = re.search(r"(\d+)", price.replace(",", ""))
             if match:
-                row["Price (2 adults/night)"] = float(match.group(1))
+                row["Price (2 adults/night)"] = int(match.group(1))
             else:
                 row["Price (2 adults/night)"] = ""
             rows.append(row)
