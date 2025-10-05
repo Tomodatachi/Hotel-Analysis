@@ -1,0 +1,84 @@
+Missing value indices for 'booking_hue.csv':
+  Row 4: Score, Reviews, Overall
+  Row 6: Score, Reviews, Overall
+  Row 26: Score
+  Row 41: Score
+  Row 62: Score
+  Row 75: Score
+  Row 119: Reviews
+  Row 135: Score, Reviews
+  Row 172: Score, Reviews
+  Row 216: Score
+  Row 229: Reviews
+  Row 242: Score
+  Row 255: Score, Reviews
+  Row 285: Reviews
+  Row 293: Score
+  Row 304: Score
+  Row 308: Score
+  Row 309: Score, Reviews, Overall
+  Row 320: Score
+  Row 326: Score, Reviews, Overall
+  Row 338: Score, Reviews
+  Row 340: Score
+  Row 344: Score, Reviews, Overall
+  Row 346: Reviews
+  Row 348: Score, Reviews, Overall
+  Row 354: Score, Reviews, Overall
+  Row 358: Score, Reviews
+  Row 359: Score, Reviews, Overall
+  Row 363: Score
+  Row 365: Score, Reviews, Overall
+  Row 390: Score, Reviews, Overall
+  Row 391: Score
+  Row 401: Score, Reviews, Overall
+  Row 403: Score, Reviews, Overall
+  Row 404: Reviews
+  Row 409: Score, Reviews, Overall
+  Row 410: Score, Reviews, Overall
+  Row 417: Score, Reviews, Overall
+  Row 419: Score, Reviews, Overall
+  Row 421: Score, Reviews, Overall
+  Row 426: Score
+  Row 427: Reviews
+  Row 429: Reviews
+  Row 431: Score, Reviews, Overall
+  Row 437: Score, Reviews, Overall
+  Row 439: Score
+  Row 445: Score, Reviews
+  Row 446: Score, Reviews, Overall
+  Row 447: Score
+  Row 448: Score, Reviews, Overall
+  Row 452: Score, Reviews
+  Row 455: Score, Reviews, Overall
+  Row 456: Score, Reviews, Overall
+  Row 461: Score, Reviews, Overall
+  Row 464: Reviews
+  Row 465: Score, Reviews, Overall
+  Row 466: Score
+  Row 467: Score, Reviews, Overall
+  Row 470: Score
+  Row 472: Score, Reviews, Overall
+  Row 473: Reviews
+  Row 474: Score, Reviews, Overall
+  Row 475: Score, Reviews, Overall
+  Row 476: Score
+  Row 477: Score, Reviews
+  Row 478: Reviews
+  Row 482: Score, Reviews, Overall
+  Row 483: Score, Reviews, Overall
+  Row 484: Score
+  Row 486: Score, Reviews
+  Row 488: Reviews
+  Row 489: Score, Reviews, Overall
+  Row 490: Score, Reviews, Overall
+  Row 491: Score, Reviews, Overall
+  Row 492: Reviews
+  Row 493: Score, Reviews, Overall
+  Row 494: Score, Reviews, Overall
+  Row 496: Reviews
+  Row 497: Reviews
+  Row 498: Score, Reviews, Overall
+  Row 499: Score, Reviews, Overall
+  Row 500: Reviews
+----------------------------------------

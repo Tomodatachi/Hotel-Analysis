@@ -1,0 +1,68 @@
+Missing value indices for 'booking_hcm.csv':
+  Row 64: Score
+  Row 144: Score
+  Row 228: Score, Reviews
+  Row 239: Score
+  Row 262: Score
+  Row 265: Score
+  Row 266: Score
+  Row 273: Score, Reviews, Overall
+  Row 274: Score
+  Row 281: Score
+  Row 283: Score, Reviews, Overall
+  Row 295: Score
+  Row 321: Score
+  Row 388: Score
+  Row 395: Reviews
+  Row 418: Score, Reviews
+  Row 480: Score, Reviews, Overall
+  Row 505: Score, Reviews, Overall
+  Row 512: Score
+  Row 542: Score
+  Row 575: Score, Reviews, Overall
+  Row 576: Reviews
+  Row 614: Score
+  Row 623: Score, Reviews, Overall
+  Row 626: Score
+  Row 630: Score
+  Row 632: Score, Reviews
+  Row 651: Score
+  Row 655: Score
+  Row 668: Score, Reviews, Overall
+  Row 672: Score, Reviews, Overall
+  Row 682: Score, Reviews, Overall
+  Row 719: Score, Reviews, Overall
+  Row 726: Score
+  Row 748: Score, Reviews, Overall
+  Row 778: Score
+  Row 782: Score
+  Row 790: Score
+  Row 791: Score
+  Row 802: Score
+  Row 816: Score, Reviews, Overall
+  Row 834: Score, Reviews, Overall
+  Row 852: Score, Reviews
+  Row 856: Score, Reviews
+  Row 859: Score, Reviews, Overall
+  Row 860: Score
+  Row 863: Score
+  Row 870: Score, Reviews, Overall
+  Row 871: Score
+  Row 872: Score
+  Row 882: Score
+  Row 919: Score, Reviews, Overall
+  Row 921: Score
+  Row 930: Score
+  Row 936: Score
+  Row 942: Reviews
+  Row 953: Score, Reviews
+  Row 954: Score, Reviews, Overall
+  Row 960: Score
+  Row 961: Score, Reviews, Overall
+  Row 964: Reviews
+  Row 973: Reviews
+  Row 975: Score
+  Row 988: Score
+  Row 991: Score, Reviews, Overall
+  Row 992: Score
+----------------------------------------

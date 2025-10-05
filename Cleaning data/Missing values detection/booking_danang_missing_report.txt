@@ -1,0 +1,148 @@
+Missing value indices for 'booking_danang.csv':
+  Row 208: Score
+  Row 224: Score
+  Row 309: Score
+  Row 316: Score, Reviews, Overall
+  Row 322: Score, Reviews, Overall
+  Row 328: Score
+  Row 357: Score
+  Row 361: Score, Reviews, Overall
+  Row 363: Score
+  Row 364: Score, Reviews
+  Row 367: Score
+  Row 372: Score, Reviews
+  Row 375: Score, Reviews, Overall
+  Row 378: Score
+  Row 386: Score
+  Row 405: Score
+  Row 416: Score, Reviews
+  Row 447: Score, Reviews, Overall
+  Row 453: Reviews
+  Row 461: Score
+  Row 479: Score, Reviews, Overall
+  Row 480: Reviews
+  Row 500: Score, Reviews, Overall
+  Row 518: Score
+  Row 528: Score
+  Row 539: Score
+  Row 550: Score, Reviews
+  Row 574: Score
+  Row 578: Reviews
+  Row 580: Score, Reviews, Overall
+  Row 581: Score, Reviews, Overall
+  Row 594: Score
+  Row 595: Score
+  Row 597: Score, Reviews, Overall
+  Row 602: Score, Reviews, Overall
+  Row 614: Reviews
+  Row 621: Score, Reviews
+  Row 627: Score
+  Row 628: Score, Reviews, Overall
+  Row 631: Score
+  Row 635: Score, Reviews, Overall
+  Row 636: Reviews
+  Row 641: Reviews
+  Row 644: Score, Reviews, Overall
+  Row 657: Score, Reviews
+  Row 660: Score, Reviews, Overall
+  Row 662: Score, Reviews
+  Row 664: Reviews
+  Row 668: Score
+  Row 671: Score, Reviews, Overall
+  Row 673: Score, Reviews, Overall
+  Row 682: Score
+  Row 683: Score, Reviews, Overall
+  Row 691: Score, Reviews, Overall
+  Row 698: Score, Reviews, Overall
+  Row 699: Score, Reviews
+  Row 702: Score, Reviews, Overall
+  Row 715: Score, Reviews, Overall
+  Row 721: Score
+  Row 724: Score, Reviews, Overall
+  Row 725: Score, Reviews
+  Row 731: Score
+  Row 737: Score, Reviews, Overall
+  Row 742: Score
+  Row 745: Score, Reviews, Overall
+  Row 746: Score, Reviews, Overall
+  Row 747: Score, Reviews
+  Row 751: Score, Reviews, Overall
+  Row 760: Score, Reviews, Overall
+  Row 767: Score, Reviews, Overall
+  Row 768: Score, Reviews, Overall
+  Row 770: Score
+  Row 794: Score, Reviews
+  Row 795: Score
+  Row 800: Score, Reviews
+  Row 808: Score
+  Row 812: Score, Reviews, Overall
+  Row 813: Score, Reviews, Overall
+  Row 815: Score
+  Row 823: Score, Reviews
+  Row 825: Score
+  Row 827: Score
+  Row 831: Score
+  Row 833: Score
+  Row 835: Score, Reviews, Overall
+  Row 841: Score, Reviews
+  Row 847: Score, Reviews, Overall
+  Row 849: Score
+  Row 850: Reviews
+  Row 852: Score, Reviews, Overall
+  Row 855: Score, Reviews, Overall
+  Row 858: Score, Reviews
+  Row 859: Score, Reviews, Overall
+  Row 863: Score, Reviews, Overall
+  Row 865: Score
+  Row 868: Score, Reviews, Overall
+  Row 873: Score, Reviews, Overall
+  Row 876: Score
+  Row 877: Score, Reviews, Overall
+  Row 881: Score, Reviews, Overall
+  Row 883: Score, Reviews, Overall
+  Row 887: Score
+  Row 889: Score, Reviews, Overall
+  Row 890: Score, Reviews, Overall
+  Row 891: Score
+  Row 893: Score, Reviews, Overall
+  Row 894: Score, Reviews, Overall
+  Row 899: Score
+  Row 900: Score
+  Row 902: Score, Reviews, Overall
+  Row 906: Score, Reviews, Overall
+  Row 911: Score
+  Row 921: Score, Reviews, Overall
+  Row 922: Score, Reviews, Overall
+  Row 923: Score, Reviews
+  Row 927: Score, Reviews, Overall
+  Row 928: Score, Reviews, Overall
+  Row 933: Score
+  Row 935: Score
+  Row 936: Score, Reviews, Overall
+  Row 940: Score
+  Row 941: Score
+  Row 942: Score, Reviews
+  Row 943: Reviews
+  Row 944: Score
+  Row 948: Score, Reviews, Overall
+  Row 949: Reviews
+  Row 951: Reviews
+  Row 952: Score, Reviews, Overall
+  Row 953: Score, Reviews, Overall
+  Row 954: Score, Reviews, Overall
+  Row 957: Score, Reviews, Overall
+  Row 958: Score, Reviews
+  Row 963: Score
+  Row 968: Score, Reviews
+  Row 972: Score
+  Row 973: Score, Reviews
+  Row 974: Score
+  Row 975: Score
+  Row 978: Score, Reviews, Overall
+  Row 980: Score
+  Row 983: Score, Reviews, Overall
+  Row 984: Reviews
+  Row 986: Score, Reviews, Overall
+  Row 987: Score, Reviews
+  Row 991: Score, Reviews, Overall
+----------------------------------------

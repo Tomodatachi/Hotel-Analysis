@@ -1,0 +1,59 @@
+Missing value indices for 'booking_cantho.csv':
+  Row 44: Score
+  Row 109: Score, Reviews, Overall
+  Row 142: Score
+  Row 154: Score
+  Row 156: Reviews
+  Row 158: Score
+  Row 161: Score, Reviews
+  Row 172: Score, Reviews, Overall
+  Row 187: Score, Reviews, Overall
+  Row 190: Reviews
+  Row 195: Score
+  Row 196: Reviews
+  Row 197: Reviews
+  Row 201: Score, Reviews, Overall
+  Row 209: Score, Reviews
+  Row 211: Score, Reviews, Overall
+  Row 214: Score, Reviews, Overall
+  Row 218: Score, Reviews, Overall
+  Row 225: Score, Reviews
+  Row 227: Score, Reviews
+  Row 229: Score, Reviews
+  Row 231: Score, Reviews, Overall
+  Row 233: Reviews
+  Row 234: Score, Reviews
+  Row 238: Score, Reviews
+  Row 243: Score, Reviews, Overall
+  Row 245: Score, Reviews, Overall
+  Row 247: Score, Reviews
+  Row 248: Score, Reviews, Overall
+  Row 249: Reviews
+  Row 250: Score, Reviews, Overall
+  Row 252: Score, Reviews, Overall
+  Row 254: Score, Reviews, Overall
+  Row 256: Score, Reviews, Overall
+  Row 257: Score, Reviews, Overall
+  Row 263: Score
+  Row 265: Score, Reviews
+  Row 266: Score, Reviews, Overall
+  Row 267: Score, Reviews, Overall
+  Row 272: Score, Reviews, Overall
+  Row 274: Score, Reviews
+  Row 276: Score, Reviews, Overall
+  Row 277: Score, Reviews, Overall
+  Row 278: Score, Reviews
+  Row 279: Reviews
+  Row 280: Score
+  Row 281: Score, Reviews, Overall
+  Row 283: Score, Reviews
+  Row 284: Score
+  Row 286: Score, Reviews, Overall
+  Row 287: Reviews
+  Row 288: Score, Reviews, Overall
+  Row 289: Reviews
+  Row 290: Score, Reviews, Overall
+  Row 291: Score, Reviews, Overall
+  Row 293: Reviews
+  Row 295: Score, Reviews, Overall
+----------------------------------------

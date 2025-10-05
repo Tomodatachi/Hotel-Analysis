@@ -1,0 +1,58 @@
+Missing value indices for 'booking_hanoi.csv':
+  Row 2: Score
+  Row 165: Score
+  Row 227: Score
+  Row 250: Score
+  Row 271: Score
+  Row 272: Score
+  Row 523: Score
+  Row 571: Score
+  Row 638: Score, Reviews
+  Row 645: Reviews
+  Row 658: Score
+  Row 667: Score, Reviews
+  Row 679: Score
+  Row 689: Score, Reviews
+  Row 691: Score, Reviews, Overall
+  Row 698: Score, Reviews, Overall
+  Row 713: Score, Reviews, Overall
+  Row 726: Score, Reviews, Overall
+  Row 728: Score, Reviews, Overall
+  Row 742: Score
+  Row 747: Reviews
+  Row 775: Score, Reviews, Overall
+  Row 787: Score
+  Row 793: Score
+  Row 794: Score, Reviews
+  Row 795: Score
+  Row 798: Score, Reviews
+  Row 802: Score, Reviews
+  Row 814: Score, Reviews, Overall
+  Row 820: Score
+  Row 832: Score
+  Row 833: Score, Reviews, Overall
+  Row 846: Score, Reviews
+  Row 855: Score, Reviews, Overall
+  Row 862: Score, Reviews
+  Row 864: Score, Reviews, Overall
+  Row 865: Score, Reviews, Overall
+  Row 866: Score, Reviews, Overall
+  Row 874: Score, Reviews, Overall
+  Row 882: Reviews
+  Row 888: Score, Reviews, Overall
+  Row 891: Reviews
+  Row 895: Score
+  Row 899: Score
+  Row 910: Reviews
+  Row 916: Score, Reviews, Overall
+  Row 917: Score, Reviews, Overall
+  Row 920: Reviews
+  Row 922: Score, Reviews, Overall
+  Row 926: Score
+  Row 935: Score, Reviews, Overall
+  Row 937: Score
+  Row 950: Score, Reviews
+  Row 956: Score, Reviews, Overall
+  Row 964: Score, Reviews
+  Row 980: Score
+----------------------------------------

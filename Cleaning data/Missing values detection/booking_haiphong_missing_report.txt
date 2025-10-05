@@ -1,0 +1,72 @@
+Missing value indices for 'booking_haiphong.csv':
+  Row 6: Score
+  Row 21: Score
+  Row 22: Score
+  Row 55: Score
+  Row 81: Score
+  Row 84: Score, Reviews
+  Row 90: Price (2 adults/night)
+  Row 97: Score, Reviews, Overall
+  Row 99: Score, Reviews
+  Row 105: Score, Reviews, Overall
+  Row 106: Score
+  Row 110: Score, Reviews
+  Row 119: Reviews
+  Row 120: Score, Reviews, Overall
+  Row 124: Score
+  Row 125: Score, Reviews, Overall
+  Row 127: Reviews
+  Row 130: Reviews
+  Row 136: Reviews
+  Row 137: Score, Reviews, Overall
+  Row 144: Reviews
+  Row 153: Score, Reviews
+  Row 163: Reviews
+  Row 164: Score, Reviews, Overall
+  Row 172: Score, Reviews, Overall
+  Row 174: Reviews
+  Row 179: Score
+  Row 190: Score, Reviews, Overall
+  Row 192: Reviews
+  Row 194: Score, Reviews
+  Row 196: Score, Reviews, Overall
+  Row 197: Score, Reviews, Overall
+  Row 198: Score, Reviews
+  Row 199: Score
+  Row 201: Score, Reviews, Overall
+  Row 202: Reviews
+  Row 203: Score, Reviews, Overall
+  Row 204: Score
+  Row 207: Score, Reviews
+  Row 209: Score, Reviews, Overall
+  Row 213: Reviews
+  Row 215: Score, Reviews
+  Row 217: Score, Reviews, Overall
+  Row 218: Score, Reviews, Overall
+  Row 219: Score, Reviews, Overall
+  Row 220: Score
+  Row 221: Score, Reviews, Overall
+  Row 222: Score, Reviews, Overall
+  Row 223: Score, Reviews, Overall
+  Row 224: Score, Reviews
+  Row 225: Score, Reviews, Overall
+  Row 227: Score, Reviews, Overall
+  Row 228: Score
+  Row 229: Score
+  Row 232: Score, Reviews, Overall
+  Row 233: Score, Reviews, Overall
+  Row 234: Score, Reviews, Overall
+  Row 237: Score, Reviews, Overall
+  Row 238: Score, Reviews, Overall
+  Row 239: Score, Reviews, Overall
+  Row 240: Score, Reviews, Overall
+  Row 241: Reviews
+  Row 242: Score, Reviews, Overall
+  Row 243: Score, Reviews, Overall
+  Row 244: Score, Reviews, Overall
+  Row 245: Score, Reviews, Overall
+  Row 247: Score, Reviews, Overall
+  Row 249: Reviews
+  Row 250: Score, Reviews, Overall
+  Row 251: Score, Reviews, Overall
+----------------------------------------
