@@ -1,0 +1,120 @@
+Metadata for 'booking_danang.csv':
+  Number of rows: 991
+  Number of columns: 10
+  Columns:
+    - Stay: str
+    - Price (2 adults/night): int
+    - Check_in: str
+    - Check_out: str
+    - Score: float
+    - Stars: int
+    - Address: str
+    - Reviews: int
+    - Overall: str
+    - Link: str
+----------------------------------------
+Metadata for 'booking_hanoi.csv':
+  Number of rows: 981
+  Number of columns: 10
+  Columns:
+    - Stay: str
+    - Price (2 adults/night): int
+    - Check_in: str
+    - Check_out: str
+    - Score: float
+    - Stars: int
+    - Address: str
+    - Reviews: int
+    - Overall: str
+    - Link: str
+----------------------------------------
+Metadata for 'booking_hcm.csv':
+  Number of rows: 998
+  Number of columns: 10
+  Columns:
+    - Stay: str
+    - Price (2 adults/night): int
+    - Check_in: str
+    - Check_out: str
+    - Score: float
+    - Stars: int
+    - Address: str
+    - Reviews: int
+    - Overall: str
+    - Link: str
+----------------------------------------
+Metadata for 'booking_nhatrang.csv':
+  Number of rows: 676
+  Number of columns: 10
+  Columns:
+    - Stay: str
+    - Price (2 adults/night): int
+    - Check_in: str
+    - Check_out: str
+    - Score: float
+    - Stars: int
+    - Address: str
+    - Reviews: int
+    - Overall: str
+    - Link: str
+----------------------------------------
+Metadata for 'booking_hue.csv':
+  Number of rows: 499
+  Number of columns: 10
+  Columns:
+    - Stay: str
+    - Price (2 adults/night): int
+    - Check_in: str
+    - Check_out: str
+    - Score: float
+    - Stars: int
+    - Address: str
+    - Reviews: int
+    - Overall: str
+    - Link: str
+----------------------------------------
+Metadata for 'booking_brvt.csv':
+  Number of rows: 779
+  Number of columns: 10
+  Columns:
+    - Stay: str
+    - Price (2 adults/night): int
+    - Check_in: str
+    - Check_out: str
+    - Score: float
+    - Stars: int
+    - Address: str
+    - Reviews: int
+    - Overall: str
+    - Link: str
+----------------------------------------
+Metadata for 'booking_cantho.csv':
+  Number of rows: 294
+  Number of columns: 10
+  Columns:
+    - Stay: str
+    - Price (2 adults/night): int
+    - Check_in: str
+    - Check_out: str
+    - Score: float
+    - Stars: int
+    - Address: str
+    - Reviews: int
+    - Overall: str
+    - Link: str
+----------------------------------------
+Metadata for 'booking_haiphong.csv':
+  Number of rows: 250
+  Number of columns: 10
+  Columns:
+    - Stay: str
+    - Price (2 adults/night): int
+    - Check_in: str
+    - Check_out: str
+    - Score: float
+    - Stars: int
+    - Address: str
+    - Reviews: int
+    - Overall: str
+    - Link: str
+----------------------------------------
