@@ -1,0 +1,88 @@
+Missing values in 'booking_danang.csv':
+  Score: 134 missing (13.52%)
+  Reviews: 96 missing (9.69%)
+  Overall: 63 missing (6.36%)
+----------------------------------------
+Missing values in 'booking_hanoi.csv':
+  Score: 50 missing (5.10%)
+  Reviews: 35 missing (3.57%)
+  Overall: 19 missing (1.94%)
+----------------------------------------
+Missing values in 'booking_hcm.csv':
+  Score: 61 missing (6.11%)
+  Reviews: 30 missing (3.01%)
+  Overall: 19 missing (1.90%)
+----------------------------------------
+Missing values in 'booking_nhatrang.csv':
+  Score: 158 missing (23.37%)
+  Reviews: 159 missing (23.52%)
+  Overall: 115 missing (17.01%)
+----------------------------------------
+Missing values in 'booking_hue.csv':
+  Score: 67 missing (13.43%)
+  Reviews: 62 missing (12.42%)
+  Overall: 38 missing (7.62%)
+----------------------------------------
+Missing values in 'booking_brvt.csv':
+  Score: 94 missing (12.07%)
+  Reviews: 85 missing (10.91%)
+  Overall: 62 missing (7.96%)
+----------------------------------------
+Missing values in 'booking_cantho.csv':
+  Score: 47 missing (15.99%)
+  Reviews: 49 missing (16.67%)
+  Overall: 27 missing (9.18%)
+----------------------------------------
+Missing values in 'booking_haiphong.csv':
+  Price (2 adults/night): 1 missing (0.40%)
+  Score: 57 missing (22.80%)
+  Reviews: 56 missing (22.40%)
+  Overall: 35 missing (14.00%)
+----------------------------------------
+Missing values in 'booking_danang.csv':
+  Score: 134 missing (13.52%)
+  Reviews: 96 missing (9.69%)
+  Overall: 63 missing (6.36%)
+----------------------------------------
+Missing values in 'booking_hanoi.csv':
+  Score: 50 missing (5.10%)
+  Reviews: 35 missing (3.57%)
+  Overall: 19 missing (1.94%)
+----------------------------------------
+Missing values in 'booking_hcm.csv':
+  Score: 61 missing (6.11%)
+  Reviews: 30 missing (3.01%)
+  Overall: 19 missing (1.90%)
+----------------------------------------
+Missing values in 'booking_nhatrang.csv':
+  Score: 158 missing (23.37%)
+  Reviews: 159 missing (23.52%)
+  Overall: 115 missing (17.01%)
+----------------------------------------
+Missing values in 'booking_hue.csv':
+  Score: 67 missing (13.43%)
+  Reviews: 62 missing (12.42%)
+  Overall: 38 missing (7.62%)
+----------------------------------------
+Missing values in 'booking_brvt.csv':
+  Score: 94 missing (12.07%)
+  Reviews: 85 missing (10.91%)
+  Overall: 62 missing (7.96%)
+----------------------------------------
+Missing values in 'booking_cantho.csv':
+  Score: 47 missing (15.99%)
+  Reviews: 49 missing (16.67%)
+  Overall: 27 missing (9.18%)
+----------------------------------------
+Missing values in 'booking_haiphong.csv':
+  Price (2 adults/night): 1 missing (0.40%)
+  Score: 57 missing (22.80%)
+  Reviews: 56 missing (22.40%)
+  Overall: 35 missing (14.00%)
+----------------------------------------
+Missing values in 'combined_bookings.csv':
+  Price (2 adults/night): 1 missing (0.02%)
+  Score: 769 missing (12.15%)
+  Reviews: 673 missing (10.64%)
+  Overall: 449 missing (7.10%)
+----------------------------------------
