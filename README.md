@@ -28,28 +28,28 @@ This project explores how hotel prices, ratings, and location data interact — 
 ## 📂 Folder Structure
 <pre>
 Hotel-Analysis/ 
-├── Booking.com's data   # Raw CSV files scrapped from Booking.com
-   ├── README.md # Some description of this folder
-   ├── Requirements.txt # Version of Selenium used
-   ├── Scrapping_code.py # Python code for scrapping data
-   ├── booking_(...).csv # Raw CSV files of scrapped data of (...) cities on Booking.com
-├── Cleaning data   # Processing data
+├── Booking.com's data                              # Raw CSV files scrapped from Booking.com
+   ├── README.md                                    # Some description of this folder
+   ├── Requirements.txt                             # Version of Selenium used
+   ├── Scrapping_code.py                            # Python code for scrapping data
+   ├── booking_(...).csv                            # Raw CSV files of scrapped data of (...) cities on Booking.com
+├── Cleaning data                                   # Processing data
    ├── Missing values detection
-      ├── booking_(...)_missing_report.txt # Details of missing values from raw data
-      ├── missing_detail.py # Python program for missing value detection in detail
-      ├── missing_log.py # Python counting program to export a statistic file of missing values
-      ├── missing_values_log.txt # Log file exported from counting program above
+      ├── booking_(...)_missing_report.txt          # Details of missing values from raw data
+      ├── missing_detail.py                         # Python program for missing value detection in detail
+      ├── missing_log.py                            # Python counting program to export a statistic file of missing values
+      ├── missing_values_log.txt                    # Log file exported from counting program above
    ├── data
-      ├── booking_(...).csv # All CSV files after re-edit some changes for later easier use
-      ├── great_data.py # Python code to combined all CSV files above into one great data file
-      ├── combined_bookings.csv # The great file of data containing information from CSV files above
-      ├── booking_etl_dag.py # Python program to write DAG and ETL method inserted to Apache Airflow
-      ├── cleaned_bookings.csv # The great file of cleaned data using Apache Airflow
+      ├── booking_(...).csv                         # All CSV files after re-edit some changes for later easier use
+      ├── great_data.py                             # Python code to combined all CSV files above into one great data file
+      ├── combined_bookings.csv                     # The great file of data containing information from CSV files above
+      ├── booking_etl_dag.py                        # Python program to write DAG and ETL method inserted to Apache Airflow
+      ├── cleaned_bookings.csv                      # The great file of cleaned data using Apache Airflow
    ├── metadata
-      ├── metadata_log.py # Python code to export metadata of CSV files
-      ├── metadata_log.txt # A report of metadata of CSV files
-   ├── Cleaning_code.py # The code for re-edit raw CSV files into CSV files in "data" folder
-├── README.md   #Project overview
+      ├── metadata_log.py                           # Python code to export metadata of CSV files
+      ├── metadata_log.txt                          # A report of metadata of CSV files
+   ├── Cleaning_code.py                             # The code for re-edit raw CSV files into CSV files in "data" folder
+├── README.md                                       # Project overview
 </pre>
 ---
 
