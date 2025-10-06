@@ -22,6 +22,6 @@ for filename in os.listdir(folder_path):
         dfs.append(df)
 
 combined_df = pd.concat(dfs, ignore_index=True)
-combined_df.to_csv('combined_bookings.csv', index=False)
+combined_df.to_csv('combined_bookings.csv', index=False, encoding = 'utf-8-sig')
 
 print('All files combined successfully into combined_bookings.csv')
