@@ -67,3 +67,9 @@ Hotel-Analysis/
 - Which cities offer the best value for money?
 - Do higher review counts correlate with better ratings?
 - How do prices vary by province or season?
+
+👤 Contributors
+- Lương Minh Ngọc              # Project Leader | ETL Developer | Data Scraper & Cleaner
+- Nguyễn Minh Hoàng            # Project Member | Data Checker & Analyst
+- Hồ Nhật Tân                  # Project Member | Idea Maker | Data Checker & Analyst
+- Nguyễn Viết Hưng             # Project Member | Data Checker & Analyst
