@@ -26,12 +26,12 @@ This project explores how hotel prices, ratings, and location data interact — 
 ---
 
 ## 📂 Folder Structure
-
+<pre>
 Hotel-Analysis/ 
 ├── data/   # Raw CSV files 
 ├── booking_etl_dag.py   # ETL logic 
 ├── README.md   #Project overview
-
+</pre>
 ---
 
 ## 🚀 How to Run
