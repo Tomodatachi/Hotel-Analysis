@@ -99,10 +99,10 @@ def load(**context):
     # Connect to SQL Server
     conn = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};'
-        'SERVER=192.168.1.3,1433;'
+        'SERVER=[censored for privacy];'
         'DATABASE=BookingDB;'
-        'UID=airflow_ngoc;'
-        'PWD=18092006;'
+        'UID=[censored for privacy];'
+        'PWD=[censored for privacy];'
         'Encrypt=no;'
         'TrustServerCertificate=yes;'
         'Connection Timeout=30;'
