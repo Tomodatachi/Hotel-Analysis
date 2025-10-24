@@ -17,6 +17,19 @@ except FileNotFoundError:
     print("LỖI: Không tìm thấy file CSV. Vui lòng kiểm tra lại tên file.")
     exit()
 
+# 2. Hiển thị kích thước dữ liệu (Shape)
+print("\n--- 2: Kích thước dữ liệu thô (Shape) ---")
+print(f"Dữ liệu trong tuần (thô): {df_weekday_raw.shape} (Hàng, Cột)")
+print(f"Dữ liệu cuối tuần (thô): {df_weekend_raw.shape} (Hàng, Cột)")
+
+# 3. Hiển thị 5 dòng đầu (Head)
+print("\n--- 3: Demo dữ liệu (Head) ---")
+print("Demo dữ liệu TRONG TUẦN (5 dòng đầu):")
+print(df_weekday_raw.head())
+print("\nDemo dữ liệu CUỐI TUẦN (5 dòng đầu):")
+print(df_weekend_raw.head())
+
+
 # 2. Tạo bản sao để làm sạch (giữ lại bản gốc nếu cần)
 df_weekday = df_weekday_raw.copy()
 df_weekend = df_weekend_raw.copy()
@@ -149,6 +162,106 @@ else:
     else:
         print("Các khách sạn có giá cuối tuần BẰNG HOẶC THẤP HƠN trong tuần:")
         print(df_price_drop[['Hotel_Name', 'Province', 'Price_Weekday', 'Price_Weekend', 'Price_Diff']])
+
+
+# --- 4 TRUY VẤN NÂNG CAO ---
+# Giả định rằng em đã chạy file code chính và
+# đã có DataFrame 'df_weekend' (đã được làm sạch)
+
+print("\n" + "="*60)
+print("GIAI ĐOẠN 3: PHÂN TÍCH NÂNG CAO (TƯƠNG QUAN & GỘP)")
+print("="*60)
+
+# ---
+# Ý TƯỞNG 1 (Query 17): Phân phối nhãn "Overall" (Sentiment)
+# Kỹ thuật: .value_counts()
+# ---
+print("\n--- 3.1: Phân phối nhãn 'Overall' (Đánh giá chung) ---")
+# .value_counts() đếm số lần xuất hiện của mỗi nhãn
+# normalize=True sẽ cho chúng ta tỷ lệ % thay vì số đếm
+if 'Overall' in df_weekend.columns:
+    print("Số lượng theo nhãn:")
+    print(df_weekend['Overall'].value_counts())
+    
+    print("\nTỷ lệ % theo nhãn:")
+    print(df_weekend['Overall'].value_counts(normalize=True).mul(100).round(2).astype(str) + ' %')
+else:
+    print("Không tìm thấy cột 'Overall' trong df_weekend.")
+
+# ---
+# Ý TƯỞNG 2 (Query 11): Mối quan hệ giữa SAO, GIÁ, và ĐIỂM
+# Kỹ thuật: .groupby().agg()
+# ---
+print("\n--- 3.2: Thống kê gộp (Giá TB, Điểm TB) theo Hạng Sao ---")
+# .agg() cho phép chúng ta thực hiện nhiều phép tính (count, mean, sum...)
+# trên nhiều cột khác nhau trong cùng một lệnh groupby
+try:
+    df_agg_stars = df_weekend.groupby('Stars').agg(
+        n_hotels=('Hotel_ID', 'count'),      # Đếm số khách sạn (dùng cột bất kỳ, ở đây là Hotel_ID)
+        avg_price=('Price_Weekend', 'mean'), # Tính giá trung bình
+        avg_score=('Score', 'mean')          # Tính điểm trung bình
+    ).sort_index() # Sắp xếp theo Stars (0, 1, 2...)
+    
+    print(df_agg_stars)
+except Exception as e:
+    print(f"Lỗi khi chạy GroupBy Agg: {e}")
+
+# ---
+# Ý TƯỞNG 3 (Query 14): Tương quan toán học (SAO vs. GIÁ)
+# Kỹ thuật: .corr()
+# ---
+print("\n--- 3.3: Tương quan Pearson (SAO vs. GIÁ) toàn thị trường ---")
+# Tính toán hệ số tương quan Pearson
+# Giá trị từ -1 đến 1.
+# > 0: Đồng biến (Sao tăng, Giá tăng)
+# < 0: Nghịch biến (Sao tăng, Giá giảm)
+# Gần 0: Không tương quan
+try:
+    # Bỏ qua các hàng có giá trị NaN ở 1 trong 2 cột này
+    df_corr = df_weekend[['Stars', 'Price_Weekend']].dropna()
+    correlation_matrix = df_corr.corr(method='pearson')
+    
+    print("Ma trận tương quan:")
+    print(correlation_matrix)
+    
+    # Lấy giá trị tương quan cụ thể
+    corr_value = correlation_matrix.loc['Stars', 'Price_Weekend']
+    print(f"\nHệ số tương quan (Stars vs. Price): {corr_value:.4f}")
+    
+except Exception as e:
+    print(f"Lỗi khi tính tương quan: {e}")
+
+# ---
+# Ý TƯỞNG 4 (Query 15): Tương quan (SAO vs. GIÁ) theo TỈNH
+# Kỹ thuật: .groupby().apply()
+# ---
+print("\n--- 3.4: Tương quan (SAO vs. GIÁ) theo từng Tỉnh/Thành ---")
+
+# Đây là một kỹ thuật nâng cao. Chúng ta cần định nghĩa một hàm
+# để tính tương quan cho MỖI nhóm (tỉnh)
+
+def calculate_correlation(group):
+    # Cần ít nhất 2 điểm dữ liệu để tính tương quan
+    if len(group['Stars'].dropna()) < 2 or len(group['Price_Weekend'].dropna()) < 2:
+        return np.nan
+    return group['Stars'].corr(group['Price_Weekend'], method='pearson')
+
+try:
+    # .apply() sẽ chạy hàm 'calculate_correlation' trên mỗi nhóm
+    # được tạo ra bởi 'groupby('Province')'
+    
+    # CẬP NHẬT: Chọn rõ các cột ['Stars', 'Price_Weekend'] trước khi apply
+    # để tắt FutureWarning và làm code hiệu quả hơn.
+    df_corr_by_province = df_weekend.groupby('Province')[['Stars', 'Price_Weekend']].apply(calculate_correlation)
+    
+    # Đổi tên Series, sắp xếp và hiển thị
+    df_corr_by_province.name = 'Stars_Price_Correlation'
+    print(df_corr_by_province.sort_values(ascending=False).dropna())
+    
+    print("\nÝ nghĩa: Cho thấy ở tỉnh nào, 'sao' ảnh hưởng đến 'giá' mạnh nhất.")
+    
+except Exception as e:
+    print(f"Lỗi khi tính tương quan theo nhóm: {e}")
 
 print("\n" + "="*60)
 print("PHÂN TÍCH EDA HOÀN TẤT.")
