@@ -28,10 +28,10 @@ This project explores how hotel prices, ratings, and location data interact — 
 ## 📂 Folder Structure
 <pre>
 Hotel-Analysis/ 
-├── Booking.com's data                              # Raw CSV files scrapped from Booking.com
+├── Booking.com's data                              # Raw CSV files scraped from Booking.com
    ├── README.md                                    # Some description of this folder
    ├── Requirements.txt                             # Version of Selenium used
-   ├── Scrapping_code.py                            # Python code for scrapping data
+   ├── Scrapping_code.py                            # Python code for scraping data
    ├── booking_(...).csv                            # Raw CSV files of scrapped data of (...) cities on Booking.com
 ├── Cleaning data                                   # Processing data
    ├── Missing values detection
@@ -40,15 +40,15 @@ Hotel-Analysis/
       ├── missing_log.py                            # Python counting program to export a statistic file of missing values
       ├── missing_values_log.txt                    # Log file exported from counting program above
    ├── data
-      ├── booking_(...).csv                         # All CSV files after re-edit some changes for later easier use
-      ├── great_data.py                             # Python code to combined all CSV files above into one great data file
+      ├── booking_(...).csv                         # All CSV files after re-editing some changes for later easier use
+      ├── great_data.py                             # Python code to combine all CSV files above into one great data file
       ├── combined_bookings.csv                     # The great file of data containing information from CSV files above
       ├── booking_etl_dag.py                        # Python program to write DAG and ETL method inserted to Apache Airflow
       ├── cleaned_bookings.csv                      # The great file of cleaned data using Apache Airflow
    ├── metadata
       ├── metadata_log.py                           # Python code to export metadata of CSV files
       ├── metadata_log.txt                          # A report of metadata of CSV files
-   ├── Cleaning_code.py                             # The code for re-edit raw CSV files into CSV files in "data" folder
+   ├── Cleaning_code.py                             # The code for re-editing raw CSV files into CSV files in the "data" folder
 ├── README.md                                       # Project overview
 </pre>
 ---
@@ -59,7 +59,7 @@ Hotel-Analysis/
    ```bash
    git clone https://github.com/Tomodatachi/Hotel-Analysis.git
 2. Set up your Airflow DAG using booking_etl_dag.py
-3. Ensure Mircrosoft SQL Server is running and accessible
+3. Ensure Microsoft SQL Server is running and accessible
 4. Trigger the DAG to extract, transform, and load the data
 
 ## 📊 Insights You Can Explore
@@ -69,7 +69,7 @@ Hotel-Analysis/
 - How do prices vary by province or season?
 
 👤 Contributors
-- Lương Minh Ngọc              # Project Leader | ETL Developer | Data Scraper & Cleaner
-- Nguyễn Minh Hoàng            # Project Member | Data Checker & Analyst
-- Hồ Nhật Tân                  # Project Member | Idea Maker | Data Checker & Analyst
-- Nguyễn Viết Hưng             # Project Member | Data Checker & Analyst
+- Lương Minh Ngọc              # Project Leader | Data Scientist | Data Manager
+- Nguyễn Minh Hoàng            # Project Member | Data Analyst
+- Hồ Nhật Tân                  # Project Member | Idea Maker | Data Analyst
+- Nguyễn Viết Hưng             # Project Member | Data Analyst
